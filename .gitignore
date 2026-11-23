@@ -1,0 +1,22 @@
+# macOS
+.DS_Store
+
+# Dependencies
+node_modules/
+
+# Secrets (MySQL password etc.)
+.env
+.env.*
+!.env.example
+
+# Logs
+npm-debug.log*
+*.log
+
+# Astro
+dist/
+.astro/
+
+# Editors
+.vscode/
+.idea/
