@@ -8,8 +8,7 @@ as an API, and an Astro frontend displays it.
 
 ## What this project is for
 
-This is a learning project, not a production app. Each part is kept as simple
-as possible so the GraphQL concepts stay easy to see:
+This is a learning project, not a production app. Each part is kept as simple as possible so the GraphQL concepts stay easy to see:
 
 - how a GraphQL **schema** describes data with **types** and **fields**
 - how **queries** ask for exactly the data they need
