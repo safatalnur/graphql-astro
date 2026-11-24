@@ -1,0 +1,39 @@
+# Student Type
+type Student {
+    id: ID!
+    name: String!
+    deptName: String
+    totalCredits: Int
+}
+
+# Course Type
+type Course {
+    id: ID!
+    title: String
+    deptName: String
+    credits: Int
+}
+
+# Instructor Type
+type Instructor {
+    id: ID!
+    name: String!
+    deptName: String
+    salary: Float
+}
+
+# Department Type
+type Department {
+    id: ID!
+    name: String!
+    building: String
+    budget: Float
+}
+
+# Classroom Type
+type Classroom {
+    id: ID!
+    building: String!
+    roomNumber: String!
+    capacity: Int
+}
