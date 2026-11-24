@@ -1,0 +1,31 @@
+query AllStudentsName {
+    students {
+        name
+    }
+}
+
+# { 
+#     "data": { 
+#         "students": [
+#             {"name": "Safat"},
+#             {"name": "Urmy"} 
+#         ] 
+#     } 
+# }
+
+query AllClassroomsLists{
+    classrooms {
+        building
+        roomNumber
+        capacity
+    }
+}
+
+# { 
+#     "data": { 
+#         "classrooms": [
+#             {"building": "Packard", "roomNumber": "101", "capacity": 500 },
+#             {"building": "Howard", "roomNumber": "100", "capacity": 300 }
+#         ] 
+#     } 
+# }

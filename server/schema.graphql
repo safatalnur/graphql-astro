@@ -37,3 +37,12 @@ type Classroom {
     roomNumber: String!
     capacity: Int
 }
+
+# Queries
+type Query {
+    students: [Student!]!
+    courses: [Course!]!
+    instructors: [Instructor!]!
+    departments: [Department!]!
+    classrooms: [Classroom!]!
+}
